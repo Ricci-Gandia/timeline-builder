@@ -1,0 +1,237 @@
+{
+	"title": {
+		"media": {
+			"url": "https://designindc.com/wp-content/uploads/Machine-Learning.jpg",
+			"credit": "Let us explore how it came to be"
+		},
+		"text": {
+			"headline": "A timeline in the history of Machine Learning",
+			"text": "<p>Machine learning (ML) is a branch of artificial intelligence (AI) focused on enabling computers and machines to imitate the way that humans learn, to perform tasks autonomously, and to improve their performance and accuracy through experience and exposure to more data.</p>"
+
+		}
+	},
+	"events": [
+		{
+		"media": {
+			"url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Thomas_Bayes.gif",
+			"caption": "Published posthumously in 1763.",
+			"credit": "Bayes' Theorem"
+		},
+		"text": {
+			"headline": "<a href=\"https://en.wikipedia.org/wiki/Thomas_Bayes\">Thomas Bayes</a><br/> 1763",
+			"text": "<p>Bayes’s theorem, in probability theory, a means for revising predictions in light of relevant evidence, also known as conditional probability or inverse probability. A fundamental concept in machine learning as it provides a way to update probabilities based on new evidence or information. It is often used in Bayesian inference and probabilistic models.</p>"
+
+		},
+		"start_date": {
+				"year": 1763
+			}
+			
+	},
+		{
+			"media": {
+				"url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+				"caption": "An English mathematician who published the first complex computer algorithm in 1843.",
+				"credit": "Ada Lovelace photo:<a href=\"https://en.wikipedia.org/wiki/Ada_Lovelace\"> from Wikipedia</a>"
+			},
+			"start_date": {
+				"year": 1843
+			},
+			"text": {
+				"headline": "First Complex Computer Algorithm",
+				"text": "<p>The algorithm, detailed in Note G of Sketch of The Analytical Engine Invented by Charles Babbage by Luigi Menabrea with notes by Ada Lovelace described how the Analytical Engine could calculate the Bernoulli numbers using a recursive algorithm. Even though she wrote about a computer, the Analytical Engine, that was never built, she realized that the computer could follow a series of simple instructions, a program, to perform a complex calculation.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Portrait_of_George_Boole.png/1280px-Portrait_of_George_Boole.png",
+				"credit": "George Boole photo:<a href=\"https://en.wikipedia.org/wiki/George_Boole\"> from Wikipedia</a>"
+			},
+			"start_date": {
+				"year": 1847
+			},
+			"text": {
+				"headline": "Boolean Algebra",
+				"text": "Boolean is vital in AI, notably in the construction of decision-making algorithms and neural networks. It's used to model logical thinking and decision trees, which are crucial in machine learning and expert systems."
+			}
+		},
+		{
+			"media": {
+				"url": "https://www.youtube.com/watch?v=Vs7Lo5MKIws",
+				"caption": "A machine that can learn",
+				"credit": "Alan Turing photo:<a href=\"https://en.wikipedia.org/wiki/File:Alan_turing_header.jpg\"> from Wikipedia</a>"
+			},
+			"start_date": {
+				"year": 1947
+			},
+			"text": {
+				"headline": "A machine that can learn from experience",
+				"text": "In London in 1947 Turing gave what was, so far as is known, the earliest public lecture to mention computer intelligence, saying \"What we want is a machine that can learn from experience\", adding that the \"possibility of letting the machine alter its own instructions provides the mechanism for this. \"In 1948 he wrote (but did not publish) a report entitled \"Intelligent Machinery\". This was the first manifesto of AI and in it Turing brilliantly introduced many of the concepts that were later to become central, in some cases after reinvention by others. One of these was the concept of \"training\" a network of artificial neurons to perform specific tasks."
+			}
+		},
+		{
+			"media": {
+				"url": "https://www.youtube.com/watch?v=T_IsYnRGNls&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=MjM4NTE",
+				"caption": "The evolution that came from games",
+				"credit": "Samuel used checkers to study strategy and improve their play through trial and error, much the same way human minds learn."
+			},
+			"start_date": {
+				"year": 1952
+			},
+			"text": {
+				"headline": "A machine learning",
+				"text": "The IBM 701 machine on which he developed his Samuel Checkers program was among the most powerful computers of its time, its memory was not sufficient to game out every possible outcome of each move. Samuel got around this limitation by introducing what is now called “alpha-beta pruning,” a scoring system that allowed the program to evaluate the likelihood of winning from certain positions without playing them out to the end of the game. Like a human player, Samuel Checkers looked as many moves ahead as it could and made its decisions from there. Most important, Samuel introduced mechanisms by which his checkers program could learn from games it had already played. Samuel Checkers recorded each position it saw and whether that position eventually led to a win or a loss; by incorporating these values into its subsequent decisions, the program got better the more games it played."
+			}
+		},
+		{
+			"media": {
+				"url": "https://media.geeksforgeeks.org/wp-content/uploads/20230205005753/ffrrrrrrrrr-removebg-preview.jpg",
+				"caption": "The first neural network"
+		
+			},
+			"start_date": {
+				"year": 1959
+			},
+			"text": {
+				"headline": "MADALINE",
+				"text": "Bernard Widrow and Marcian Hoff of Stanford developed models they called ADALINE and MADALINE. These models were named for their use of Multiple ADAptive LINear Elements. MADALINE was the first neural network to be applied to a real-world problem. It is an adaptive filter which eliminates echoes on phone lines. This neural network is still in commercial use."
+			}
+		},
+		{
+			"media": {
+				"url": "https://www.cs.trincoll.edu/~ram/cpsc352/notes/learning/gifs/nettalk.gif",
+				"caption": "A neural network that learns to pronounce english."
+				
+			},
+			"start_date": {
+				"year": 1987
+			},
+			"text": {
+				"headline": "NETTALK",
+				"text": "Nettalk is a neural network, developed in 1987, that learns to pronounce English text. It learns to associate phonemes with string of text. It is the result of research carried out in the mid-1980s by Terrence Sejnowski and Charles Rosenberg. The intent behind NETtalk was to construct simplified models that might shed light on the complexity of learning human level cognitive tasks, and their implementation as a connectionist model that could also learn to perform a comparable task."
+			}
+		},
+		{
+			"media": {
+				"url": "https://www.youtube.com/watch?v=eFLD5xvUL7k&t=1s",
+				"caption": "Godfather of AI",
+				"credit": "DeepLearning"
+			},
+			"start_date": {
+				"year": 2006
+			},
+			"text": {
+				"headline": "Geoffrey Hinton",
+				"text": "Hinton at the University of Toronto in 2001 made advances in neural network models. His research group developed and began to apply practical means for deep-learning technology in the 2000s. Before Hinton’s breakthroughs, AI research was constrained by limited computational power and the relatively shallow architectures of machine learning models. Hinton’s work on deep learning, with its multiple layers of interconnected nodes and the ability to process unstructured data, revolutionized the field. His contributions have allowed AI to move beyond rule-based systems to models that can learn autonomously from data. By introducing scalable neural networks that could train on large datasets, Hinton effectively changed the trajectory of machine learning. His research addressed the limitations of previous machine learning algorithms, which struggled with tasks requiring high levels of abstraction, such as recognizing objects in images or translating human speech into text. In 2018 Hinton was named a joint recipient of the Turing Award, often described as the “Nobel Prize of Computing,” for his breakthrough research on neural networks, and four years later he received the Royal Society’s Royal Medal for his pioneering work on deep learning."
+			}
+		},
+		{
+			"media": {
+				"url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Thomas_Bayes.gif",
+				"caption": "References used for Thomas Bayes"
+
+			},
+			"start_date": {
+				"year": 2025
+			},
+			"text": {
+				"headline": "Thomas Bayes : Reference/s",
+				"text": "<p>Thomas Bayes : Reference/s<br/>2024</p><p>GeeksforGeeks. (2025, July 23). Bayes Theorem in Machine learning. GeeksforGeeks. https://www.geeksforgeeks.org/machine-learning/bayes-theorem-in-machine-learning/</p><p>Routledge, R. (2025, June 28). Bayes’s theorem | Definition & Example. Encyclopedia Britannica. https://www.britannica.com/topic/Bayess-theorem/</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+				"caption": "References used for Ada Lovelace"
+			},
+			"start_date": {
+				"year": 2025
+			},
+			"text": {
+				"headline": "Ada Lovelace : Reference/s",
+				"text": "<p> (n.d.). Ada Lovelace’s Note G | Project Lovelace. https://projectlovelace.net/problems/ada-lovelaces-note-g/</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Portrait_of_George_Boole.png/1280px-Portrait_of_George_Boole.png",
+				"caption": "References used for George Boole"
+
+			},
+			"start_date": {
+				"year": 2025
+			},
+			"text": {
+				"headline": "George Boole : Reference/s",
+				"text": "<p>GeeksforGeeks. (2025, August 11). Boolean algebra. GeeksforGeeks. https://www.geeksforgeeks.org/digital-logic/boolean-algebra/</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://en.wikipedia.org/wiki/File:Alan_turing_header.jpg",
+				"caption": "References used for Alan Turing"
+			},
+			"start_date": {
+				"year": 2025
+			},
+			"text": {
+				"headline": "Alan Turing : Reference/s",
+				"text": "<p>Jack Copeland. (2000, May). AlanTuring.net. https://www.alanturing.net/turing_archive/pages/Reference%20Articles/what_is_AI/What%20is%20AI03.html#:~:text=In%20London%20in%201947%20Turing%20gave%20what%20was,,its%20own%20instructions%20provides%20the%20mechanism%20for%20this%22.</p><p>Jackson, A. (2024, June 7). Alan Turing: A Strong Legacy That Powers Modern AI. AImagazine. https://aimagazine.com/machine-learning/alan-turing-a-strong-legacy-that-powers-modern-ai</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://tse2.mm.bing.net/th/id/OIP.-ZvEhpBkBp9BLEkH_OJDUwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+				"caption": "References used for Arthur Samuel"
+			},
+			"start_date": {
+				"year": 2025
+			},
+			"text": {
+				"headline": "Arthur Samuel : Reference/s",
+				"text": "<p>IBM (n.d.). The games that helped AI evolve | IBM. https://www.ibm.com/history/early-games Interesting Engineering (2025, March 28). Arthur Samuel | Father of ML | Bio | MIT | IBM - Interesting Engineering. Interesting Engineering.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://media.geeksforgeeks.org/wp-content/uploads/20230205005753/ffrrrrrrrrr-removebg-preview.jpg",
+				"caption": "References used for MADALINE"
+			},
+			"start_date": {
+				"year": 2025
+			},
+			"text": {
+				"headline": "MADALINE : References",
+				"text": "<p>Strachnyi, K. (2019, January 23). Brief History of Neural Networks. Medium. https://medium.com/analytics-vidhya/brief-history-of-neural-networks-44c2bf72eec</p><p>Khanna, T. (2021, February 9). History of Neural Networks. Deeptechbytes. https://deeptechbytes.com/history-of-neural-networks/</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://www.cs.trincoll.edu/~ram/cpsc352/notes/learning/gifs/nettalk.gif",
+				"caption": "References used for NETTALK"
+
+			},
+			"start_date": {
+				"year": 2025
+			},
+			"text": {
+				"headline": "NETTALK : Reference/s",
+				"text": "<p>Notes: Neural net learning. (n.d.). https://www.cs.trincoll.edu/~ram/cpsc352/notes/learning/ml.nn.html</p><p>Rosenberg, C. R., & Sejnowski, T. J. (1986) NETtalk: a parallel network that learns to read aloud.  NETtalk: A Parallel Network That Learns to Read Aloud</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://e3.365dm.com/21/03/2048x1152/skynews-geoffrey-hinton_5309331.jpg?20210318110955",
+				"caption": "References for Geoffrey Hinton"
+				
+			},
+			"start_date": {
+				"year": 2025
+			},
+			"text": {
+				"headline": "Geoffrey Hinton : Reference/s",
+				"text": "<p>McDonough, & Michael. (2025, August 20). Geoffrey Hinton | Biography, Nobel Prize, Machine Learning, AI, & Facts. Encyclopedia Britannica. https://www.britannica.com/biography/Geoffrey-Hinton</p><p>AI VIPs (2025, April 27). Geoffrey Hinton : The Godfather of Deep Learning in AI. AI VIPs. https://aivips.org/geoffrey-hinton/</p>"
+			}
+		
+		}
+	]
+}
